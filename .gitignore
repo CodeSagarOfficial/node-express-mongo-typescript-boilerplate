@@ -1,0 +1,16 @@
+.idea/
+# .vscode/
+node_modules/
+dist/
+tmp/
+temp/
+/coverage/
+/.nyc_output/
+logs/
+
+# don't check in  env files
+.env.prod
+.env.staging
+.env.test
+.env.example
+**/.DS_Store
