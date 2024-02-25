@@ -10,11 +10,8 @@ export interface IUser {
   isEmailVerified: boolean
   authMethod: string
   language: string
-  // imgUrl: string
   status: string
   code: string
-  // createdAt: Date
-  // updatedAt: Date
 }
 
 export interface IAuthUser {
